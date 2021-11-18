@@ -1,0 +1,25 @@
+//
+//  TuyaCommunityKitSample-PrefixHeader.pch
+//  TuyaCommunityKitSample
+//
+//  Copyright (c) 2014-2021 Tuya Inc. (https://developer.tuya.com/)
+//
+
+#ifndef TuyaCommunityKitSample_PrefixHeader_pch
+#define TuyaCommunityKitSample_PrefixHeader_pch
+
+#import <Masonry/Masonry.h>
+#import <TuyaCommunityKit/TuyaCommunityKit.h>
+#import <YYModel/YYModel.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+
+#import "NSString+Extension.h"
+#import "MBProgressHUD+Extension.h"
+
+#import "TuyaCommunityCosoleView.h"
+#import "TuyaCommunityManager.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TuyaCommunityKitSample_PrefixHeader_pch */

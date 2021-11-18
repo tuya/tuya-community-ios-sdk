@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A95F1AB3E4D738F49C6DA824 /* libPods-TuyaCommunityKitSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD33114312A112D779C8C7B /* libPods-TuyaCommunityKitSample.a */; };
+		AE85912627438B30002CFD67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85912527438B2F002CFD67 /* AppDelegate.m */; };
+		AE85912F27438B30002CFD67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE85912D27438B30002CFD67 /* Main.storyboard */; };
+		AE85913127438B32002CFD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE85913027438B32002CFD67 /* Assets.xcassets */; };
+		AE85913427438B32002CFD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE85913227438B32002CFD67 /* LaunchScreen.storyboard */; };
+		AE85913727438B32002CFD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85913627438B32002CFD67 /* main.m */; };
+		AE85914127438B33002CFD67 /* TuyaCommunityKitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85914027438B33002CFD67 /* TuyaCommunityKitSampleTests.m */; };
+		AE85914B27438B33002CFD67 /* TuyaCommunityKitSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85914A27438B33002CFD67 /* TuyaCommunityKitSampleUITests.m */; };
+		AE85914D27438B33002CFD67 /* TuyaCommunityKitSampleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85914C27438B33002CFD67 /* TuyaCommunityKitSampleUITestsLaunchTests.m */; };
+		AE85921927438F0A002CFD67 /* TuyaCommunityFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591CE27438F0A002CFD67 /* TuyaCommunityFunctionViewController.m */; };
+		AE85921A27438F0A002CFD67 /* TuyaCommunityTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591CF27438F0A002CFD67 /* TuyaCommunityTabBarController.m */; };
+		AE85921B27438F0A002CFD67 /* TuyaCommunityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591D027438F0A002CFD67 /* TuyaCommunityManager.m */; };
+		AE85921C27438F0A002CFD67 /* TuyaCommunityNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591D227438F0A002CFD67 /* TuyaCommunityNavigationController.m */; };
+		AE85921D27438F0A002CFD67 /* TuyaCommunityImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591D627438F0A002CFD67 /* TuyaCommunityImagePicker.m */; };
+		AE85921F27438F0A002CFD67 /* TuyaCommunityCosoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591DA27438F0A002CFD67 /* TuyaCommunityCosoleView.m */; };
+		AE85922027438F0A002CFD67 /* TuyaCommunityPublicMonitorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591DF27438F0A002CFD67 /* TuyaCommunityPublicMonitorDetailViewController.m */; };
+		AE85922127438F0A002CFD67 /* TuyaCommunityPublicMonitorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591E027438F0A002CFD67 /* TuyaCommunityPublicMonitorListViewController.m */; };
+		AE85922227438F0A002CFD67 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591E427438F0A002CFD67 /* NSString+Extension.m */; };
+		AE85922327438F0A002CFD67 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591E527438F0A002CFD67 /* MBProgressHUD+Extension.m */; };
+		AE85922427438F0A002CFD67 /* TuyaCommunityAccessControlListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591E827438F0A002CFD67 /* TuyaCommunityAccessControlListViewController.m */; };
+		AE85922527438F0A002CFD67 /* TuyaCommunityAccessControlCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591EA27438F0A002CFD67 /* TuyaCommunityAccessControlCallViewController.m */; };
+		AE85922627438F0A002CFD67 /* TuyaCommunityAccessControlDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591EB27438F0A002CFD67 /* TuyaCommunityAccessControlDetailViewController.m */; };
+		AE85922727438F0A002CFD67 /* TuyaCommunityVisitorRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591EE27438F0A002CFD67 /* TuyaCommunityVisitorRecordCell.m */; };
+		AE85922827438F0A002CFD67 /* TuyaCommunityVisitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591F327438F0A002CFD67 /* TuyaCommunityVisitorViewController.m */; };
+		AE85922927438F0A002CFD67 /* TuyaCommunityVisitorDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591F427438F0A002CFD67 /* TuyaCommunityVisitorDetailsViewController.m */; };
+		AE85922A27438F0A002CFD67 /* TuyaCommunityVisitorRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591F527438F0A002CFD67 /* TuyaCommunityVisitorRecordViewController.m */; };
+		AE85922B27438F0A002CFD67 /* TuyaCommunityMemberListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591F727438F0A002CFD67 /* TuyaCommunityMemberListViewController.m */; };
+		AE85922C27438F0A002CFD67 /* TuyaCommunityAddMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591FC27438F0A002CFD67 /* TuyaCommunityAddMemberViewController.m */; };
+		AE85922D27438F0A002CFD67 /* TuyaCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8591FD27438F0A002CFD67 /* TuyaCommunityViewController.m */; };
+		AE85922E27438F0A002CFD67 /* TuyaCommunityHouseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920027438F0A002CFD67 /* TuyaCommunityHouseListViewController.m */; };
+		AE85922F27438F0A002CFD67 /* TuyaCommunityChangeHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920127438F0A002CFD67 /* TuyaCommunityChangeHouseViewController.m */; };
+		AE85923027438F0A002CFD67 /* TuyaCommunitySelectHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920227438F0A002CFD67 /* TuyaCommunitySelectHouseViewController.m */; };
+		AE85923127438F0A002CFD67 /* TuyaCommunityAddHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920327438F0A002CFD67 /* TuyaCommunityAddHouseViewController.m */; };
+		AE85923227438F0A002CFD67 /* TuyaCommunityHouseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920527438F0A002CFD67 /* TuyaCommunityHouseCell.m */; };
+		AE85923327438F0A002CFD67 /* TuyaCommunityHouseInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920927438F0A002CFD67 /* TuyaCommunityHouseInfoView.m */; };
+		AE85923427438F0A002CFD67 /* TuyaCommunityUserCertificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920A27438F0A002CFD67 /* TuyaCommunityUserCertificationViewController.m */; };
+		AE85923527438F0A002CFD67 /* TuyaCommunitySmartDoorLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920C27438F0A002CFD67 /* TuyaCommunitySmartDoorLogViewController.m */; };
+		AE85923627438F0A002CFD67 /* TuyaCommunityQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85920F27438F0A002CFD67 /* TuyaCommunityQrCodeViewController.m */; };
+		AE85923727438F0A002CFD67 /* TuyaCommunitySmartDoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85921027438F0A002CFD67 /* TuyaCommunitySmartDoorViewController.m */; };
+		AE85923827438F0A002CFD67 /* UIImage+TYQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85921127438F0A002CFD67 /* UIImage+TYQRCode.m */; };
+		AE85923927438F0A002CFD67 /* TuyaCommunityLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85921527438F0A002CFD67 /* TuyaCommunityLoginViewController.m */; };
+		AE85923A27438F0A002CFD67 /* TuyaCommunityRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85921627438F0A002CFD67 /* TuyaCommunityRegisterViewController.m */; };
+		AEF4A4072744B2CA0071B501 /* t_s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = AEF4A4062744B2CA0071B501 /* t_s.bmp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE85913D27438B33002CFD67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE85911927438B2F002CFD67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE85912027438B2F002CFD67;
+			remoteInfo = TuyaCommunityKitSample;
+		};
+		AE85914727438B33002CFD67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE85911927438B2F002CFD67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE85912027438B2F002CFD67;
+			remoteInfo = TuyaCommunityKitSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DAA2E9B5B7FA073DCD07FBF /* Pods-TuyaCommunityKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaCommunityKitSample.debug.xcconfig"; path = "Target Support Files/Pods-TuyaCommunityKitSample/Pods-TuyaCommunityKitSample.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE9A53C2657EA35456F3A54 /* Pods-TuyaCommunityKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaCommunityKitSample.release.xcconfig"; path = "Target Support Files/Pods-TuyaCommunityKitSample/Pods-TuyaCommunityKitSample.release.xcconfig"; sourceTree = "<group>"; };
+		AE85912127438B2F002CFD67 /* TuyaCommunityKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuyaCommunityKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85912427438B2F002CFD67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE85912527438B2F002CFD67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE85912E27438B30002CFD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE85913027438B32002CFD67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE85913327438B32002CFD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE85913527438B32002CFD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE85913627438B32002CFD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE85913C27438B33002CFD67 /* TuyaCommunityKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuyaCommunityKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85914027438B33002CFD67 /* TuyaCommunityKitSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityKitSampleTests.m; sourceTree = "<group>"; };
+		AE85914627438B33002CFD67 /* TuyaCommunityKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuyaCommunityKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85914A27438B33002CFD67 /* TuyaCommunityKitSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityKitSampleUITests.m; sourceTree = "<group>"; };
+		AE85914C27438B33002CFD67 /* TuyaCommunityKitSampleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityKitSampleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AE8591CD27438F0A002CFD67 /* TuyaCommunityNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityNavigationController.h; sourceTree = "<group>"; };
+		AE8591CE27438F0A002CFD67 /* TuyaCommunityFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityFunctionViewController.m; sourceTree = "<group>"; };
+		AE8591CF27438F0A002CFD67 /* TuyaCommunityTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityTabBarController.m; sourceTree = "<group>"; };
+		AE8591D027438F0A002CFD67 /* TuyaCommunityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityManager.m; sourceTree = "<group>"; };
+		AE8591D127438F0A002CFD67 /* TuyaCommunityFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityFunctionViewController.h; sourceTree = "<group>"; };
+		AE8591D227438F0A002CFD67 /* TuyaCommunityNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityNavigationController.m; sourceTree = "<group>"; };
+		AE8591D327438F0A002CFD67 /* TuyaCommunityTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityTabBarController.h; sourceTree = "<group>"; };
+		AE8591D427438F0A002CFD67 /* TuyaCommunityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityManager.h; sourceTree = "<group>"; };
+		AE8591D627438F0A002CFD67 /* TuyaCommunityImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityImagePicker.m; sourceTree = "<group>"; };
+		AE8591D727438F0A002CFD67 /* TuyaCommunityCosoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityCosoleView.h; sourceTree = "<group>"; };
+		AE8591DA27438F0A002CFD67 /* TuyaCommunityCosoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityCosoleView.m; sourceTree = "<group>"; };
+		AE8591DB27438F0A002CFD67 /* TuyaCommunityImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityImagePicker.h; sourceTree = "<group>"; };
+		AE8591DD27438F0A002CFD67 /* TuyaCommunityPublicMonitorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityPublicMonitorDetailViewController.h; sourceTree = "<group>"; };
+		AE8591DE27438F0A002CFD67 /* TuyaCommunityPublicMonitorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityPublicMonitorListViewController.h; sourceTree = "<group>"; };
+		AE8591DF27438F0A002CFD67 /* TuyaCommunityPublicMonitorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityPublicMonitorDetailViewController.m; sourceTree = "<group>"; };
+		AE8591E027438F0A002CFD67 /* TuyaCommunityPublicMonitorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityPublicMonitorListViewController.m; sourceTree = "<group>"; };
+		AE8591E227438F0A002CFD67 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		AE8591E327438F0A002CFD67 /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		AE8591E427438F0A002CFD67 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		AE8591E527438F0A002CFD67 /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		AE8591E727438F0A002CFD67 /* TuyaCommunityAccessControlCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityAccessControlCallViewController.h; sourceTree = "<group>"; };
+		AE8591E827438F0A002CFD67 /* TuyaCommunityAccessControlListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityAccessControlListViewController.m; sourceTree = "<group>"; };
+		AE8591E927438F0A002CFD67 /* TuyaCommunityAccessControlDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityAccessControlDetailViewController.h; sourceTree = "<group>"; };
+		AE8591EA27438F0A002CFD67 /* TuyaCommunityAccessControlCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityAccessControlCallViewController.m; sourceTree = "<group>"; };
+		AE8591EB27438F0A002CFD67 /* TuyaCommunityAccessControlDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityAccessControlDetailViewController.m; sourceTree = "<group>"; };
+		AE8591EC27438F0A002CFD67 /* TuyaCommunityAccessControlListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityAccessControlListViewController.h; sourceTree = "<group>"; };
+		AE8591EE27438F0A002CFD67 /* TuyaCommunityVisitorRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityVisitorRecordCell.m; sourceTree = "<group>"; };
+		AE8591EF27438F0A002CFD67 /* TuyaCommunityVisitorRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityVisitorRecordViewController.h; sourceTree = "<group>"; };
+		AE8591F027438F0A002CFD67 /* TuyaCommunityVisitorDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityVisitorDetailsViewController.h; sourceTree = "<group>"; };
+		AE8591F127438F0A002CFD67 /* TuyaCommunityVisitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityVisitorViewController.h; sourceTree = "<group>"; };
+		AE8591F227438F0A002CFD67 /* TuyaCommunityVisitorRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityVisitorRecordCell.h; sourceTree = "<group>"; };
+		AE8591F327438F0A002CFD67 /* TuyaCommunityVisitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityVisitorViewController.m; sourceTree = "<group>"; };
+		AE8591F427438F0A002CFD67 /* TuyaCommunityVisitorDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityVisitorDetailsViewController.m; sourceTree = "<group>"; };
+		AE8591F527438F0A002CFD67 /* TuyaCommunityVisitorRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityVisitorRecordViewController.m; sourceTree = "<group>"; };
+		AE8591F727438F0A002CFD67 /* TuyaCommunityMemberListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityMemberListViewController.m; sourceTree = "<group>"; };
+		AE8591F827438F0A002CFD67 /* TuyaCommunityAddHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityAddHouseViewController.h; sourceTree = "<group>"; };
+		AE8591F927438F0A002CFD67 /* TuyaCommunitySelectHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunitySelectHouseViewController.h; sourceTree = "<group>"; };
+		AE8591FA27438F0A002CFD67 /* TuyaCommunityChangeHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityChangeHouseViewController.h; sourceTree = "<group>"; };
+		AE8591FB27438F0A002CFD67 /* TuyaCommunityHouseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityHouseCell.h; sourceTree = "<group>"; };
+		AE8591FC27438F0A002CFD67 /* TuyaCommunityAddMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityAddMemberViewController.m; sourceTree = "<group>"; };
+		AE8591FD27438F0A002CFD67 /* TuyaCommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityViewController.m; sourceTree = "<group>"; };
+		AE8591FE27438F0A002CFD67 /* TuyaCommunityUserCertificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityUserCertificationViewController.h; sourceTree = "<group>"; };
+		AE8591FF27438F0A002CFD67 /* TuyaCommunityHouseInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityHouseInfoView.h; sourceTree = "<group>"; };
+		AE85920027438F0A002CFD67 /* TuyaCommunityHouseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityHouseListViewController.m; sourceTree = "<group>"; };
+		AE85920127438F0A002CFD67 /* TuyaCommunityChangeHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityChangeHouseViewController.m; sourceTree = "<group>"; };
+		AE85920227438F0A002CFD67 /* TuyaCommunitySelectHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunitySelectHouseViewController.m; sourceTree = "<group>"; };
+		AE85920327438F0A002CFD67 /* TuyaCommunityAddHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityAddHouseViewController.m; sourceTree = "<group>"; };
+		AE85920427438F0A002CFD67 /* TuyaCommunityMemberListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityMemberListViewController.h; sourceTree = "<group>"; };
+		AE85920527438F0A002CFD67 /* TuyaCommunityHouseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityHouseCell.m; sourceTree = "<group>"; };
+		AE85920627438F0A002CFD67 /* TuyaCommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityViewController.h; sourceTree = "<group>"; };
+		AE85920727438F0A002CFD67 /* TuyaCommunityAddMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityAddMemberViewController.h; sourceTree = "<group>"; };
+		AE85920827438F0A002CFD67 /* TuyaCommunityHouseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityHouseListViewController.h; sourceTree = "<group>"; };
+		AE85920927438F0A002CFD67 /* TuyaCommunityHouseInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityHouseInfoView.m; sourceTree = "<group>"; };
+		AE85920A27438F0A002CFD67 /* TuyaCommunityUserCertificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityUserCertificationViewController.m; sourceTree = "<group>"; };
+		AE85920C27438F0A002CFD67 /* TuyaCommunitySmartDoorLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunitySmartDoorLogViewController.m; sourceTree = "<group>"; };
+		AE85920D27438F0A002CFD67 /* UIImage+TYQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TYQRCode.h"; sourceTree = "<group>"; };
+		AE85920E27438F0A002CFD67 /* TuyaCommunitySmartDoorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunitySmartDoorViewController.h; sourceTree = "<group>"; };
+		AE85920F27438F0A002CFD67 /* TuyaCommunityQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityQrCodeViewController.m; sourceTree = "<group>"; };
+		AE85921027438F0A002CFD67 /* TuyaCommunitySmartDoorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunitySmartDoorViewController.m; sourceTree = "<group>"; };
+		AE85921127438F0A002CFD67 /* UIImage+TYQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TYQRCode.m"; sourceTree = "<group>"; };
+		AE85921227438F0A002CFD67 /* TuyaCommunitySmartDoorLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunitySmartDoorLogViewController.h; sourceTree = "<group>"; };
+		AE85921327438F0A002CFD67 /* TuyaCommunityQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityQrCodeViewController.h; sourceTree = "<group>"; };
+		AE85921527438F0A002CFD67 /* TuyaCommunityLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityLoginViewController.m; sourceTree = "<group>"; };
+		AE85921627438F0A002CFD67 /* TuyaCommunityRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCommunityRegisterViewController.m; sourceTree = "<group>"; };
+		AE85921727438F0A002CFD67 /* TuyaCommunityLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityLoginViewController.h; sourceTree = "<group>"; };
+		AE85921827438F0A002CFD67 /* TuyaCommunityRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaCommunityRegisterViewController.h; sourceTree = "<group>"; };
+		AE85923C27438F93002CFD67 /* TuyaCommunityKitSample-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TuyaCommunityKitSample-PrefixHeader.pch"; sourceTree = "<group>"; };
+		AEF4A4062744B2CA0071B501 /* t_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t_s.bmp; sourceTree = "<group>"; };
+		EDD33114312A112D779C8C7B /* libPods-TuyaCommunityKitSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaCommunityKitSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE85911E27438B2F002CFD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95F1AB3E4D738F49C6DA824 /* libPods-TuyaCommunityKitSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85913927438B33002CFD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85914327438B33002CFD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30BF5995B3CC56EDC2632614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDD33114312A112D779C8C7B /* libPods-TuyaCommunityKitSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC860000C02473062E0A24B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DAA2E9B5B7FA073DCD07FBF /* Pods-TuyaCommunityKitSample.debug.xcconfig */,
+				4EE9A53C2657EA35456F3A54 /* Pods-TuyaCommunityKitSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE85911827438B2F002CFD67 = {
+			isa = PBXGroup;
+			children = (
+				AE85912327438B2F002CFD67 /* TuyaCommunityKitSample */,
+				AE85913F27438B33002CFD67 /* TuyaCommunityKitSampleTests */,
+				AE85914927438B33002CFD67 /* TuyaCommunityKitSampleUITests */,
+				AE85912227438B2F002CFD67 /* Products */,
+				AC860000C02473062E0A24B9 /* Pods */,
+				30BF5995B3CC56EDC2632614 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE85912227438B2F002CFD67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE85912127438B2F002CFD67 /* TuyaCommunityKitSample.app */,
+				AE85913C27438B33002CFD67 /* TuyaCommunityKitSampleTests.xctest */,
+				AE85914627438B33002CFD67 /* TuyaCommunityKitSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE85912327438B2F002CFD67 /* TuyaCommunityKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591CB27438F0A002CFD67 /* Example */,
+				AE85912427438B2F002CFD67 /* AppDelegate.h */,
+				AE85912527438B2F002CFD67 /* AppDelegate.m */,
+				AE85913027438B32002CFD67 /* Assets.xcassets */,
+				AE85913527438B32002CFD67 /* Info.plist */,
+				AE85913227438B32002CFD67 /* LaunchScreen.storyboard */,
+				AE85913627438B32002CFD67 /* main.m */,
+				AE85912D27438B30002CFD67 /* Main.storyboard */,
+				AE85923C27438F93002CFD67 /* TuyaCommunityKitSample-PrefixHeader.pch */,
+				AEF4A4062744B2CA0071B501 /* t_s.bmp */,
+			);
+			path = TuyaCommunityKitSample;
+			sourceTree = "<group>";
+		};
+		AE85913F27438B33002CFD67 /* TuyaCommunityKitSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE85914027438B33002CFD67 /* TuyaCommunityKitSampleTests.m */,
+			);
+			path = TuyaCommunityKitSampleTests;
+			sourceTree = "<group>";
+		};
+		AE85914927438B33002CFD67 /* TuyaCommunityKitSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE85914A27438B33002CFD67 /* TuyaCommunityKitSampleUITests.m */,
+				AE85914C27438B33002CFD67 /* TuyaCommunityKitSampleUITestsLaunchTests.m */,
+			);
+			path = TuyaCommunityKitSampleUITests;
+			sourceTree = "<group>";
+		};
+		AE8591CB27438F0A002CFD67 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591CC27438F0A002CFD67 /* Others */,
+				AE8591D527438F0A002CFD67 /* Utils */,
+				AE8591DC27438F0A002CFD67 /* PublicMonitor */,
+				AE8591E127438F0A002CFD67 /* Extensions */,
+				AE8591E627438F0A002CFD67 /* VisualSpeak */,
+				AE8591ED27438F0A002CFD67 /* Visitor */,
+				AE8591F627438F0A002CFD67 /* House */,
+				AE85920B27438F0A002CFD67 /* SmartDoor */,
+				AE85921427438F0A002CFD67 /* Login */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		AE8591CC27438F0A002CFD67 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591D127438F0A002CFD67 /* TuyaCommunityFunctionViewController.h */,
+				AE8591CE27438F0A002CFD67 /* TuyaCommunityFunctionViewController.m */,
+				AE8591D427438F0A002CFD67 /* TuyaCommunityManager.h */,
+				AE8591D027438F0A002CFD67 /* TuyaCommunityManager.m */,
+				AE8591CD27438F0A002CFD67 /* TuyaCommunityNavigationController.h */,
+				AE8591D227438F0A002CFD67 /* TuyaCommunityNavigationController.m */,
+				AE8591D327438F0A002CFD67 /* TuyaCommunityTabBarController.h */,
+				AE8591CF27438F0A002CFD67 /* TuyaCommunityTabBarController.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		AE8591D527438F0A002CFD67 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591D727438F0A002CFD67 /* TuyaCommunityCosoleView.h */,
+				AE8591DA27438F0A002CFD67 /* TuyaCommunityCosoleView.m */,
+				AE8591DB27438F0A002CFD67 /* TuyaCommunityImagePicker.h */,
+				AE8591D627438F0A002CFD67 /* TuyaCommunityImagePicker.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AE8591DC27438F0A002CFD67 /* PublicMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591DD27438F0A002CFD67 /* TuyaCommunityPublicMonitorDetailViewController.h */,
+				AE8591DF27438F0A002CFD67 /* TuyaCommunityPublicMonitorDetailViewController.m */,
+				AE8591DE27438F0A002CFD67 /* TuyaCommunityPublicMonitorListViewController.h */,
+				AE8591E027438F0A002CFD67 /* TuyaCommunityPublicMonitorListViewController.m */,
+			);
+			path = PublicMonitor;
+			sourceTree = "<group>";
+		};
+		AE8591E127438F0A002CFD67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591E327438F0A002CFD67 /* MBProgressHUD+Extension.h */,
+				AE8591E527438F0A002CFD67 /* MBProgressHUD+Extension.m */,
+				AE8591E227438F0A002CFD67 /* NSString+Extension.h */,
+				AE8591E427438F0A002CFD67 /* NSString+Extension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AE8591E627438F0A002CFD67 /* VisualSpeak */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591E727438F0A002CFD67 /* TuyaCommunityAccessControlCallViewController.h */,
+				AE8591EA27438F0A002CFD67 /* TuyaCommunityAccessControlCallViewController.m */,
+				AE8591E927438F0A002CFD67 /* TuyaCommunityAccessControlDetailViewController.h */,
+				AE8591EB27438F0A002CFD67 /* TuyaCommunityAccessControlDetailViewController.m */,
+				AE8591EC27438F0A002CFD67 /* TuyaCommunityAccessControlListViewController.h */,
+				AE8591E827438F0A002CFD67 /* TuyaCommunityAccessControlListViewController.m */,
+			);
+			path = VisualSpeak;
+			sourceTree = "<group>";
+		};
+		AE8591ED27438F0A002CFD67 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591F027438F0A002CFD67 /* TuyaCommunityVisitorDetailsViewController.h */,
+				AE8591F427438F0A002CFD67 /* TuyaCommunityVisitorDetailsViewController.m */,
+				AE8591F227438F0A002CFD67 /* TuyaCommunityVisitorRecordCell.h */,
+				AE8591EE27438F0A002CFD67 /* TuyaCommunityVisitorRecordCell.m */,
+				AE8591EF27438F0A002CFD67 /* TuyaCommunityVisitorRecordViewController.h */,
+				AE8591F527438F0A002CFD67 /* TuyaCommunityVisitorRecordViewController.m */,
+				AE8591F127438F0A002CFD67 /* TuyaCommunityVisitorViewController.h */,
+				AE8591F327438F0A002CFD67 /* TuyaCommunityVisitorViewController.m */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		AE8591F627438F0A002CFD67 /* House */ = {
+			isa = PBXGroup;
+			children = (
+				AE8591F827438F0A002CFD67 /* TuyaCommunityAddHouseViewController.h */,
+				AE85920327438F0A002CFD67 /* TuyaCommunityAddHouseViewController.m */,
+				AE85920727438F0A002CFD67 /* TuyaCommunityAddMemberViewController.h */,
+				AE8591FC27438F0A002CFD67 /* TuyaCommunityAddMemberViewController.m */,
+				AE8591FA27438F0A002CFD67 /* TuyaCommunityChangeHouseViewController.h */,
+				AE85920127438F0A002CFD67 /* TuyaCommunityChangeHouseViewController.m */,
+				AE8591FB27438F0A002CFD67 /* TuyaCommunityHouseCell.h */,
+				AE85920527438F0A002CFD67 /* TuyaCommunityHouseCell.m */,
+				AE8591FF27438F0A002CFD67 /* TuyaCommunityHouseInfoView.h */,
+				AE85920927438F0A002CFD67 /* TuyaCommunityHouseInfoView.m */,
+				AE85920827438F0A002CFD67 /* TuyaCommunityHouseListViewController.h */,
+				AE85920027438F0A002CFD67 /* TuyaCommunityHouseListViewController.m */,
+				AE85920427438F0A002CFD67 /* TuyaCommunityMemberListViewController.h */,
+				AE8591F727438F0A002CFD67 /* TuyaCommunityMemberListViewController.m */,
+				AE8591F927438F0A002CFD67 /* TuyaCommunitySelectHouseViewController.h */,
+				AE85920227438F0A002CFD67 /* TuyaCommunitySelectHouseViewController.m */,
+				AE8591FE27438F0A002CFD67 /* TuyaCommunityUserCertificationViewController.h */,
+				AE85920A27438F0A002CFD67 /* TuyaCommunityUserCertificationViewController.m */,
+				AE85920627438F0A002CFD67 /* TuyaCommunityViewController.h */,
+				AE8591FD27438F0A002CFD67 /* TuyaCommunityViewController.m */,
+			);
+			path = House;
+			sourceTree = "<group>";
+		};
+		AE85920B27438F0A002CFD67 /* SmartDoor */ = {
+			isa = PBXGroup;
+			children = (
+				AE85921327438F0A002CFD67 /* TuyaCommunityQrCodeViewController.h */,
+				AE85920F27438F0A002CFD67 /* TuyaCommunityQrCodeViewController.m */,
+				AE85921227438F0A002CFD67 /* TuyaCommunitySmartDoorLogViewController.h */,
+				AE85920C27438F0A002CFD67 /* TuyaCommunitySmartDoorLogViewController.m */,
+				AE85920E27438F0A002CFD67 /* TuyaCommunitySmartDoorViewController.h */,
+				AE85921027438F0A002CFD67 /* TuyaCommunitySmartDoorViewController.m */,
+				AE85920D27438F0A002CFD67 /* UIImage+TYQRCode.h */,
+				AE85921127438F0A002CFD67 /* UIImage+TYQRCode.m */,
+			);
+			path = SmartDoor;
+			sourceTree = "<group>";
+		};
+		AE85921427438F0A002CFD67 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AE85921727438F0A002CFD67 /* TuyaCommunityLoginViewController.h */,
+				AE85921527438F0A002CFD67 /* TuyaCommunityLoginViewController.m */,
+				AE85921827438F0A002CFD67 /* TuyaCommunityRegisterViewController.h */,
+				AE85921627438F0A002CFD67 /* TuyaCommunityRegisterViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE85912027438B2F002CFD67 /* TuyaCommunityKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85915027438B33002CFD67 /* Build configuration list for PBXNativeTarget "TuyaCommunityKitSample" */;
+			buildPhases = (
+				1B604F8932ACCAD310DFB55B /* [CP] Check Pods Manifest.lock */,
+				AE85911D27438B2F002CFD67 /* Sources */,
+				AE85911E27438B2F002CFD67 /* Frameworks */,
+				AE85911F27438B2F002CFD67 /* Resources */,
+				60BD2951D15CB65F7D6F8976 /* [CP] Embed Pods Frameworks */,
+				4A5951621B3BE5847854AF06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuyaCommunityKitSample;
+			productName = TuyaCommunityKitSample;
+			productReference = AE85912127438B2F002CFD67 /* TuyaCommunityKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE85913B27438B33002CFD67 /* TuyaCommunityKitSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85915327438B33002CFD67 /* Build configuration list for PBXNativeTarget "TuyaCommunityKitSampleTests" */;
+			buildPhases = (
+				AE85913827438B33002CFD67 /* Sources */,
+				AE85913927438B33002CFD67 /* Frameworks */,
+				AE85913A27438B33002CFD67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE85913E27438B33002CFD67 /* PBXTargetDependency */,
+			);
+			name = TuyaCommunityKitSampleTests;
+			productName = TuyaCommunityKitSampleTests;
+			productReference = AE85913C27438B33002CFD67 /* TuyaCommunityKitSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE85914527438B33002CFD67 /* TuyaCommunityKitSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85915627438B33002CFD67 /* Build configuration list for PBXNativeTarget "TuyaCommunityKitSampleUITests" */;
+			buildPhases = (
+				AE85914227438B33002CFD67 /* Sources */,
+				AE85914327438B33002CFD67 /* Frameworks */,
+				AE85914427438B33002CFD67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE85914827438B33002CFD67 /* PBXTargetDependency */,
+			);
+			name = TuyaCommunityKitSampleUITests;
+			productName = TuyaCommunityKitSampleUITests;
+			productReference = AE85914627438B33002CFD67 /* TuyaCommunityKitSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE85911927438B2F002CFD67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AE85912027438B2F002CFD67 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AE85913B27438B33002CFD67 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AE85912027438B2F002CFD67;
+					};
+					AE85914527438B33002CFD67 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AE85912027438B2F002CFD67;
+					};
+				};
+			};
+			buildConfigurationList = AE85911C27438B2F002CFD67 /* Build configuration list for PBXProject "TuyaCommunityKitSample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE85911827438B2F002CFD67;
+			productRefGroup = AE85912227438B2F002CFD67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE85912027438B2F002CFD67 /* TuyaCommunityKitSample */,
+				AE85913B27438B33002CFD67 /* TuyaCommunityKitSampleTests */,
+				AE85914527438B33002CFD67 /* TuyaCommunityKitSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE85911F27438B2F002CFD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85913427438B32002CFD67 /* LaunchScreen.storyboard in Resources */,
+				AE85913127438B32002CFD67 /* Assets.xcassets in Resources */,
+				AEF4A4072744B2CA0071B501 /* t_s.bmp in Resources */,
+				AE85912F27438B30002CFD67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85913A27438B33002CFD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85914427438B33002CFD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B604F8932ACCAD310DFB55B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuyaCommunityKitSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A5951621B3BE5847854AF06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaCommunityKitSample/Pods-TuyaCommunityKitSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaCommunityKitSample/Pods-TuyaCommunityKitSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaCommunityKitSample/Pods-TuyaCommunityKitSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60BD2951D15CB65F7D6F8976 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaCommunityKitSample/Pods-TuyaCommunityKitSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaCommunityKitSample/Pods-TuyaCommunityKitSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaCommunityKitSample/Pods-TuyaCommunityKitSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE85911D27438B2F002CFD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85922E27438F0A002CFD67 /* TuyaCommunityHouseListViewController.m in Sources */,
+				AE85921D27438F0A002CFD67 /* TuyaCommunityImagePicker.m in Sources */,
+				AE85923527438F0A002CFD67 /* TuyaCommunitySmartDoorLogViewController.m in Sources */,
+				AE85922327438F0A002CFD67 /* MBProgressHUD+Extension.m in Sources */,
+				AE85921C27438F0A002CFD67 /* TuyaCommunityNavigationController.m in Sources */,
+				AE85923727438F0A002CFD67 /* TuyaCommunitySmartDoorViewController.m in Sources */,
+				AE85923327438F0A002CFD67 /* TuyaCommunityHouseInfoView.m in Sources */,
+				AE85922F27438F0A002CFD67 /* TuyaCommunityChangeHouseViewController.m in Sources */,
+				AE85923827438F0A002CFD67 /* UIImage+TYQRCode.m in Sources */,
+				AE85922A27438F0A002CFD67 /* TuyaCommunityVisitorRecordViewController.m in Sources */,
+				AE85922927438F0A002CFD67 /* TuyaCommunityVisitorDetailsViewController.m in Sources */,
+				AE85922B27438F0A002CFD67 /* TuyaCommunityMemberListViewController.m in Sources */,
+				AE85912627438B30002CFD67 /* AppDelegate.m in Sources */,
+				AE85922027438F0A002CFD67 /* TuyaCommunityPublicMonitorDetailViewController.m in Sources */,
+				AE85922127438F0A002CFD67 /* TuyaCommunityPublicMonitorListViewController.m in Sources */,
+				AE85923A27438F0A002CFD67 /* TuyaCommunityRegisterViewController.m in Sources */,
+				AE85913727438B32002CFD67 /* main.m in Sources */,
+				AE85922827438F0A002CFD67 /* TuyaCommunityVisitorViewController.m in Sources */,
+				AE85922627438F0A002CFD67 /* TuyaCommunityAccessControlDetailViewController.m in Sources */,
+				AE85923227438F0A002CFD67 /* TuyaCommunityHouseCell.m in Sources */,
+				AE85922227438F0A002CFD67 /* NSString+Extension.m in Sources */,
+				AE85922527438F0A002CFD67 /* TuyaCommunityAccessControlCallViewController.m in Sources */,
+				AE85922D27438F0A002CFD67 /* TuyaCommunityViewController.m in Sources */,
+				AE85922727438F0A002CFD67 /* TuyaCommunityVisitorRecordCell.m in Sources */,
+				AE85922427438F0A002CFD67 /* TuyaCommunityAccessControlListViewController.m in Sources */,
+				AE85921B27438F0A002CFD67 /* TuyaCommunityManager.m in Sources */,
+				AE85921A27438F0A002CFD67 /* TuyaCommunityTabBarController.m in Sources */,
+				AE85922C27438F0A002CFD67 /* TuyaCommunityAddMemberViewController.m in Sources */,
+				AE85923927438F0A002CFD67 /* TuyaCommunityLoginViewController.m in Sources */,
+				AE85923427438F0A002CFD67 /* TuyaCommunityUserCertificationViewController.m in Sources */,
+				AE85923627438F0A002CFD67 /* TuyaCommunityQrCodeViewController.m in Sources */,
+				AE85921F27438F0A002CFD67 /* TuyaCommunityCosoleView.m in Sources */,
+				AE85923027438F0A002CFD67 /* TuyaCommunitySelectHouseViewController.m in Sources */,
+				AE85921927438F0A002CFD67 /* TuyaCommunityFunctionViewController.m in Sources */,
+				AE85923127438F0A002CFD67 /* TuyaCommunityAddHouseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85913827438B33002CFD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85914127438B33002CFD67 /* TuyaCommunityKitSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85914227438B33002CFD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85914D27438B33002CFD67 /* TuyaCommunityKitSampleUITestsLaunchTests.m in Sources */,
+				AE85914B27438B33002CFD67 /* TuyaCommunityKitSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE85913E27438B33002CFD67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE85912027438B2F002CFD67 /* TuyaCommunityKitSample */;
+			targetProxy = AE85913D27438B33002CFD67 /* PBXContainerItemProxy */;
+		};
+		AE85914827438B33002CFD67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE85912027438B2F002CFD67 /* TuyaCommunityKitSample */;
+			targetProxy = AE85914727438B33002CFD67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE85912D27438B30002CFD67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE85912E27438B30002CFD67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE85913227438B32002CFD67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE85913327438B32002CFD67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE85914E27438B33002CFD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE85914F27438B33002CFD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE85915127438B33002CFD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAA2E9B5B7FA073DCD07FBF /* Pods-TuyaCommunityKitSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TuyaCommunityKitSample/TuyaCommunityKitSample-PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuyaCommunityKitSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE85915227438B33002CFD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE9A53C2657EA35456F3A54 /* Pods-TuyaCommunityKitSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TuyaCommunityKitSample/TuyaCommunityKitSample-PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuyaCommunityKitSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE85915427438B33002CFD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuya.developer.TuyaCommunityKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuyaCommunityKitSample.app/TuyaCommunityKitSample";
+			};
+			name = Debug;
+		};
+		AE85915527438B33002CFD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuya.developer.TuyaCommunityKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuyaCommunityKitSample.app/TuyaCommunityKitSample";
+			};
+			name = Release;
+		};
+		AE85915727438B33002CFD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuya.developer.TuyaCommunityKitSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuyaCommunityKitSample;
+			};
+			name = Debug;
+		};
+		AE85915827438B33002CFD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuya.developer.TuyaCommunityKitSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuyaCommunityKitSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE85911C27438B2F002CFD67 /* Build configuration list for PBXProject "TuyaCommunityKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85914E27438B33002CFD67 /* Debug */,
+				AE85914F27438B33002CFD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85915027438B33002CFD67 /* Build configuration list for PBXNativeTarget "TuyaCommunityKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85915127438B33002CFD67 /* Debug */,
+				AE85915227438B33002CFD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85915327438B33002CFD67 /* Build configuration list for PBXNativeTarget "TuyaCommunityKitSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85915427438B33002CFD67 /* Debug */,
+				AE85915527438B33002CFD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85915627438B33002CFD67 /* Build configuration list for PBXNativeTarget "TuyaCommunityKitSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85915727438B33002CFD67 /* Debug */,
+				AE85915827438B33002CFD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE85911927438B2F002CFD67 /* Project object */;
+}

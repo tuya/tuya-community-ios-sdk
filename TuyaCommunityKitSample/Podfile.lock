@@ -1,0 +1,112 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - TuyaAudioEngineSDK (1.0.1)
+  - TuyaCameraSDK (3.31.1):
+    - TuyaAudioEngineSDK
+    - TuyaFFmpegWrapper
+    - TuyaP2PSDK
+  - TuyaCommunityHouseKit (1.0.7):
+    - TuyaSmartDeviceCoreKit
+    - YYModel
+  - TuyaCommunityKit (1.0.7):
+    - TuyaCommunityHouseKit
+    - TuyaSmartCameraKit
+  - TuyaFFmpegWrapper (4.2.3)
+  - TuyaP2PSDK (3.4.8)
+  - TuyaSmartBaseKit (3.29.0):
+    - TuyaSmartNetworkKit
+    - TuyaSmartUtil
+    - YYModel
+  - TuyaSmartCameraBase (4.30.5)
+  - TuyaSmartCameraKit (4.31.5.1):
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+    - TuyaSmartCameraM
+    - TuyaSmartDeviceCoreKit
+    - TYEncryptImage
+  - TuyaSmartCameraM (4.31.5):
+    - TuyaCameraSDK
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+    - TuyaSmartDeviceCoreKit
+    - TuyaSmartP2pChannelKit
+  - TuyaSmartDeviceCoreKit (3.29.6):
+    - TuyaSmartBaseKit
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartSocketChannelKit
+  - TuyaSmartMQTTChannelKit (3.29.0):
+    - TuyaSmartBaseKit
+    - TuyaSmartQUIC
+  - TuyaSmartNetworkKit (3.29.0):
+    - TuyaSmartUtil
+    - YYModel
+  - TuyaSmartP2pChannelKit (3.31.5.1):
+    - TuyaP2PSDK
+    - TuyaSmartDeviceCoreKit
+  - TuyaSmartQUIC (1.1.2)
+  - TuyaSmartSocketChannelKit (3.27.1):
+    - CocoaAsyncSocket (>= 7.4.3)
+    - TuyaSmartBaseKit
+  - TuyaSmartUtil (3.26.6)
+  - TYEncryptImage (4.23.5.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - MBProgressHUD
+  - TuyaCommunityKit
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - Masonry
+    - MBProgressHUD
+    - TuyaAudioEngineSDK
+    - TuyaCameraSDK
+    - TuyaCommunityHouseKit
+    - TuyaCommunityKit
+    - TuyaFFmpegWrapper
+    - TuyaP2PSDK
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+    - TuyaSmartCameraKit
+    - TuyaSmartCameraM
+    - TuyaSmartDeviceCoreKit
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartNetworkKit
+    - TuyaSmartP2pChannelKit
+    - TuyaSmartQUIC
+    - TuyaSmartSocketChannelKit
+    - TuyaSmartUtil
+    - TYEncryptImage
+    - YYModel
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  TuyaAudioEngineSDK: 505824e1a51db117843c999af4d0848ad3ce108c
+  TuyaCameraSDK: 9fca439b8130c526776a05233f38fafae974b6ce
+  TuyaCommunityHouseKit: 328e0132a67d95fc522eae0b00b7d8c6d0e440f2
+  TuyaCommunityKit: 00d21c990b3f37ddb09f24cea3a50a23aa910006
+  TuyaFFmpegWrapper: cc6a5f16deaf7b9bb2134807ad3fd1517166363e
+  TuyaP2PSDK: 28cba3dcdd17f255858577df19da7f3f3ea3d883
+  TuyaSmartBaseKit: 5106eaeea224d0c5acd89c3634b11716240d22ad
+  TuyaSmartCameraBase: 9e7c5ac7274d2e3828f79c8e603846a09b04e1ed
+  TuyaSmartCameraKit: dae9b57147a0ee0f1cfcdb0ac6514f075105acaa
+  TuyaSmartCameraM: a6af0e386a567a6c31e623a5843129f2e97ced36
+  TuyaSmartDeviceCoreKit: 03096c89fb7f83ac326d336a54614deb4bbf1165
+  TuyaSmartMQTTChannelKit: ae3c1d821fbc5a1a75541302ff56fd06e5ed8877
+  TuyaSmartNetworkKit: f71a028a465ef10b5d47361fc7dcf0cae2547dc2
+  TuyaSmartP2pChannelKit: 08fd3835b793ddc95648f2763dcc72b2fb2e96ca
+  TuyaSmartQUIC: e8407fa527877451820595dc6977e28d0af4825c
+  TuyaSmartSocketChannelKit: 32cea8e1bc03432ad244d13199e90ecba175aeb4
+  TuyaSmartUtil: f43d2102d6bc5888aac9aefa9e1fb6f16e1ba852
+  TYEncryptImage: be87d32592bd035f5b144d0643a076fed7519650
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 54514cd6f615b4924687e3426ddc841ac744ff98
+
+COCOAPODS: 1.10.2
