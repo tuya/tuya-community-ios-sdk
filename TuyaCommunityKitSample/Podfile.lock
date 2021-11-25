@@ -3,7 +3,7 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - TuyaAudioEngineSDK (1.0.1)
-  - TuyaCameraSDK (3.31.1):
+  - TuyaCameraSDK (3.31.6):
     - TuyaAudioEngineSDK
     - TuyaFFmpegWrapper
     - TuyaP2PSDK
@@ -14,42 +14,42 @@ PODS:
     - TuyaCommunityHouseKit
     - TuyaSmartCameraKit
   - TuyaFFmpegWrapper (4.2.3)
-  - TuyaP2PSDK (3.4.8)
-  - TuyaSmartBaseKit (3.29.0):
-    - TuyaSmartNetworkKit
-    - TuyaSmartUtil
+  - TuyaP2PSDK (3.4.9)
+  - TuyaSmartBaseKit (3.32.0):
+    - TuyaSmartNetworkKit (>= 3.32.0)
     - YYModel
-  - TuyaSmartCameraBase (4.30.5)
-  - TuyaSmartCameraKit (4.31.5.1):
+  - TuyaSmartCameraBase (4.32.6)
+  - TuyaSmartCameraKit (4.32.5):
     - TuyaSmartBaseKit
     - TuyaSmartCameraBase
     - TuyaSmartCameraM
     - TuyaSmartDeviceCoreKit
     - TYEncryptImage
-  - TuyaSmartCameraM (4.31.5):
+  - TuyaSmartCameraM (4.32.5):
     - TuyaCameraSDK
     - TuyaSmartBaseKit
     - TuyaSmartCameraBase
     - TuyaSmartDeviceCoreKit
     - TuyaSmartP2pChannelKit
-  - TuyaSmartDeviceCoreKit (3.29.6):
-    - TuyaSmartBaseKit
-    - TuyaSmartMQTTChannelKit
-    - TuyaSmartSocketChannelKit
-  - TuyaSmartMQTTChannelKit (3.29.0):
-    - TuyaSmartBaseKit
-    - TuyaSmartQUIC
-  - TuyaSmartNetworkKit (3.29.0):
-    - TuyaSmartUtil
+  - TuyaSmartDeviceCoreKit (3.32.6):
+    - TuyaSmartBaseKit (>= 3.32.0)
+    - TuyaSmartMQTTChannelKit (>= 3.32.0)
+    - TuyaSmartSocketChannelKit (>= 3.32.0)
+    - TuyaSmartUtil (>= 3.32.0)
+  - TuyaSmartMQTTChannelKit (3.32.0):
+    - TuyaSmartNetworkKit (>= 3.32.0)
+    - TuyaSmartQUIC (>= 1.1.4)
+  - TuyaSmartNetworkKit (3.32.6):
+    - TuyaSmartUtil (>= 3.32.0)
     - YYModel
-  - TuyaSmartP2pChannelKit (3.31.5.1):
+  - TuyaSmartP2pChannelKit (3.32.5):
     - TuyaP2PSDK
     - TuyaSmartDeviceCoreKit
-  - TuyaSmartQUIC (1.1.2)
-  - TuyaSmartSocketChannelKit (3.27.1):
+  - TuyaSmartQUIC (1.2.0)
+  - TuyaSmartSocketChannelKit (3.32.2):
     - CocoaAsyncSocket (>= 7.4.3)
-    - TuyaSmartBaseKit
-  - TuyaSmartUtil (3.26.6)
+    - TuyaSmartUtil (>= 3.32.0)
+  - TuyaSmartUtil (3.32.5)
   - TYEncryptImage (4.23.5.3)
   - YYModel (1.0.4)
 
@@ -88,22 +88,22 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   TuyaAudioEngineSDK: 505824e1a51db117843c999af4d0848ad3ce108c
-  TuyaCameraSDK: 9fca439b8130c526776a05233f38fafae974b6ce
+  TuyaCameraSDK: 1ee4a3b8838a08b0894e876f1982e74e2748fc45
   TuyaCommunityHouseKit: 328e0132a67d95fc522eae0b00b7d8c6d0e440f2
   TuyaCommunityKit: 00d21c990b3f37ddb09f24cea3a50a23aa910006
   TuyaFFmpegWrapper: cc6a5f16deaf7b9bb2134807ad3fd1517166363e
-  TuyaP2PSDK: 28cba3dcdd17f255858577df19da7f3f3ea3d883
-  TuyaSmartBaseKit: 5106eaeea224d0c5acd89c3634b11716240d22ad
-  TuyaSmartCameraBase: 9e7c5ac7274d2e3828f79c8e603846a09b04e1ed
-  TuyaSmartCameraKit: dae9b57147a0ee0f1cfcdb0ac6514f075105acaa
-  TuyaSmartCameraM: a6af0e386a567a6c31e623a5843129f2e97ced36
-  TuyaSmartDeviceCoreKit: 03096c89fb7f83ac326d336a54614deb4bbf1165
-  TuyaSmartMQTTChannelKit: ae3c1d821fbc5a1a75541302ff56fd06e5ed8877
-  TuyaSmartNetworkKit: f71a028a465ef10b5d47361fc7dcf0cae2547dc2
-  TuyaSmartP2pChannelKit: 08fd3835b793ddc95648f2763dcc72b2fb2e96ca
-  TuyaSmartQUIC: e8407fa527877451820595dc6977e28d0af4825c
-  TuyaSmartSocketChannelKit: 32cea8e1bc03432ad244d13199e90ecba175aeb4
-  TuyaSmartUtil: f43d2102d6bc5888aac9aefa9e1fb6f16e1ba852
+  TuyaP2PSDK: 8e220138c2c22f095db96c9bf1e66526bfd22f72
+  TuyaSmartBaseKit: 552023a2272c433deb2c4fa8d539c2cfdb4cb30a
+  TuyaSmartCameraBase: eec66de24e525617b067f7a309959ba82f7eea98
+  TuyaSmartCameraKit: 6c4669aebaaa67c88f95db7b545a094910463c0a
+  TuyaSmartCameraM: 95b4d9b890f762170ca06f0d7f55889c64a33f2d
+  TuyaSmartDeviceCoreKit: 5bd0334620eb15d251f0e44427d1f2aea772c280
+  TuyaSmartMQTTChannelKit: 83dd5057d8f32436b079588c049a2038a590c025
+  TuyaSmartNetworkKit: e7c68d843938385592ecb584103543891741e8d6
+  TuyaSmartP2pChannelKit: 5b45cc5cad545238909c8f574a39ae744fbd1be8
+  TuyaSmartQUIC: fc6d0cc6123734c8268f8c1354697203c8b16a82
+  TuyaSmartSocketChannelKit: 828a8709595b44ef0b0c634335ad3913e81c5cf1
+  TuyaSmartUtil: 2e39e5fefd117767c7b2a4d8e2333afca1072170
   TYEncryptImage: be87d32592bd035f5b144d0643a076fed7519650
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
